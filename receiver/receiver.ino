@@ -25,7 +25,7 @@ void setup() {
   Serial.begin(9600); //starting serial communication
   Serial.println("        |\\                   /|\n        | \\                 / |\n        |  \\               /  |\n        |   \\_\\---'''---/_/   |\n        |     ___ \\ / ___     |\n        |    -_|_-   -_|_-    |\n         \\                   /\n        ~~ /~~    ___    ~~\\~~\n     ~~~~~~\\~~    \\ /    ~~/~~~~~~\n        ~~~~\\__  _/ \\_  __/~~~~\n               \"\"\\___/\"\"\n");
   Serial.println("\tRF RECEIVER FOR PYROTECHNIC");
-  Serial.println("\t   Made by allesfresser0");
+  Serial.println("\t   Made by mucahitkurtlar");
   Serial.println("----------------------------------------------------------");
   radio.begin(); //starting nRF24L01
   radio.openWritingPipe(code0); //setting writing channel
